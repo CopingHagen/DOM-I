@@ -58,3 +58,16 @@ footerLink.classList.add('bold')
 // CONTACT
 const contact = document.querySelector('section.contact')
 contact.children[0].textContent = siteContent.contact['contact-h4']
+contact.children[1].textContent = siteContent.contact['address']
+contact.children[2].textContent = siteContent.contact['phone']
+contact.children[3].textContent = siteContent.contact['email']
+
+// NAV
+const navLinks = document.querySelector('nav')
+navLinks.children[0].textContent = siteContent.nav['nav-item-1']
+navLinks.children[1].textContent = siteContent.nav['nav-item-2']
+navLinks.children[2].textContent = siteContent.nav['nav-item-3']
+navLinks.children[3].textContent = siteContent.nav['nav-item-4']
+navLinks.children[4].textContent = siteContent.nav['nav-item-5']
+navLinks.children[5].textContent = siteContent.nav['nav-item-6']
+navLinks.classList.add('italic')
