@@ -75,3 +75,13 @@ navLinks.classList.add('italic')
 //TITLE
 const titleH1 = document.querySelector('h1')
 titleH1.textContent = siteContent.cta.h1
+
+// const ctaButton = document.querySelector('button')
+// ctaButton = siteContent.cta.button
+
+// TOP CONTENT
+const topContent = document.querySelector('.top-content')
+topContent.children[0].children[0].textContent = siteContent['main-content']['features-h4']
+topContent.children[0].children[1].textContent = siteContent['main-content']['features-content']
+topContent.children[1].children[0].textContent = siteContent['main-content']['features-h4']
+topContent.children[1].children[1].textContent = siteContent['main-content']['features-content']
