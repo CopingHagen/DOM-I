@@ -71,3 +71,7 @@ navLinks.children[3].textContent = siteContent.nav['nav-item-4']
 navLinks.children[4].textContent = siteContent.nav['nav-item-5']
 navLinks.children[5].textContent = siteContent.nav['nav-item-6']
 navLinks.classList.add('italic')
+
+//TITLE
+const titleH1 = document.querySelector('h1')
+titleH1.textContent = siteContent.cta.h1
